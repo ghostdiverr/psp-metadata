@@ -1,0 +1,35 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with 
+*.out
+
+# Go workspace file
+go.work
+
+# Build artifacts (including cross-compiled releases)
+/psp-metadata
+/psp-metadata-linux
+*.bin
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.idea/
+*.iml
+*.swp
+*.swo
+*~
+
+# Release builds & packaging
+/dist/
+/releases/
